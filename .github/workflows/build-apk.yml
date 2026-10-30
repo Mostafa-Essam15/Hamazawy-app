@@ -1,11 +1,16 @@
 name: Build APK
 
 # Builds an installable debug APK in the cloud (no Android Studio needed).
-# Run it from the "Actions" tab -> "Build APK" -> "Run workflow", then download the artifact.
+# It runs on every push, or by hand from the "Actions" tab -> "Build APK" -> "Run workflow".
+# The finished file is published on the "apk" branch as Hamzawy-Radio.apk (direct download),
+# and is also attached to the run as an artifact.
 on:
   workflow_dispatch:
   push:
     branches: [ main, master ]
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -29,3 +34,15 @@ jobs:
         with:
           name: HamzawyRadio-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+
+      - name: Publish APK on the "apk" branch
+        run: |
+          mkdir -p "$RUNNER_TEMP/apk-out"
+          cp app/build/outputs/apk/debug/app-debug.apk "$RUNNER_TEMP/apk-out/Hamzawy-Radio.apk"
+          cd "$RUNNER_TEMP/apk-out"
+          git init -q -b apk
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add Hamzawy-Radio.apk
+          git commit -q -m "APK build ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" apk
