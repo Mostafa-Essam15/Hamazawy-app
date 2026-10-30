@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Hamzawy Radio</string>
+    <string name="app_tagline">إذاعات مصر · بث مباشر</string>
+
+    <!-- station groups -->
+    <string name="cat_news">الأخبار والبرامج</string>
+    <string name="cat_music">الأغاني والمنوعات</string>
+    <string name="cat_quran">القرآن الكريم</string>
+    <string name="cat_custom">محطاتي</string>
+    <string name="cat_other">إذاعات أخرى</string>
+    <string name="custom_station_subtitle">أضفتها من الموبايل</string>
+
+    <!-- home screen -->
+    <string name="appearance">المظهر</string>
+    <string name="connect_phone">ربط الموبايل</string>
+    <string name="status_idle">اختار محطة وابدأ الاستماع</string>
+    <string name="status_connecting">جاري الاتصال…</string>
+    <string name="status_playing">يعمل الآن</string>
+    <string name="status_paused">متوقف مؤقتًا</string>
+    <string name="status_error">تعذّر الاتصال، بحاول تاني…</string>
+    <string name="np_previous">المحطة السابقة</string>
+    <string name="np_play_pause">تشغيل / إيقاف مؤقت</string>
+    <string name="np_next">المحطة التالية</string>
+    <string name="np_stop">إيقاف</string>
+    <string name="builtin_station">دي محطة أساسية في التطبيق</string>
+    <string name="delete_station_title">حذف المحطة؟</string>
+    <string name="delete_station_message">هتتشال «%1$s» من قائمتك.</string>
+    <string name="station_added">تمت إضافة المحطة: %1$s</string>
+
+    <!-- appearance -->
+    <string name="appearance_title">المظهر</string>
+    <string name="appearance_subtitle">اختار ثيم جاهز، أو ضيف صورتك علشان تبقى خلفية التطبيق</string>
+    <string name="add_theme">إضافة ثيم</string>
+    <string name="add_theme_title">إضافة ثيم من صورة</string>
+    <string name="source_device">من الجهاز أو فلاشة USB</string>
+    <string name="source_phone">من الموبايل (واي فاي)</string>
+    <string name="no_file_picker">مفيش تطبيق ملفات على التلفزيون ده. استخدم «من الموبايل» بدله.</string>
+    <string name="dim_title">تغميق الخلفية</string>
+    <string name="dim_light">خفيف</string>
+    <string name="dim_medium">متوسط</string>
+    <string name="dim_dark">غامق</string>
+    <string name="theme_hint">اضغط مطولًا على ثيم أضفته علشان تحذفه</string>
+    <string name="custom_theme_name">ثيمي %1$d</string>
+    <string name="theme_added">تمت إضافة الثيم وتفعيله</string>
+    <string name="theme_failed">مقدرتش أقرأ الصورة دي، جرّب صورة تانية</string>
+    <string name="delete_theme_title">حذف الثيم؟</string>
+    <string name="delete_theme_message">هيتحذف «%1$s» من التطبيق.</string>
+    <string name="delete">حذف</string>
+    <string name="cancel">إلغاء</string>
+    <string name="close">إغلاق</string>
+
+    <!-- phone link -->
+    <string name="phone_title">ربط الموبايل</string>
+    <string name="phone_message_theme">١) وصّل الموبايل بنفس شبكة الواي فاي بتاعة التلفزيون.\n٢) افتح المتصفح في الموبايل واكتب العنوان ده بالظبط:\n\n%1$s\n\n٣) اختار صورة من الموبايل وابعتها، وهتبقى الثيم على طول.</string>
+    <string name="phone_message_all">١) وصّل الموبايل بنفس شبكة الواي فاي بتاعة التلفزيون.\n٢) افتح المتصفح في الموبايل واكتب العنوان ده بالظبط:\n\n%1$s\n\n٣) ابعت صورة تبقى ثيم، أو ضيف محطة راديو برابط البث بتاعها.</string>
+    <string name="phone_no_network">مفيش اتصال بالشبكة. وصّل التلفزيون بالواي فاي أو الكابل وجرّب تاني.</string>
+    <string name="phone_server_failed">معرفتش أشغّل الاتصال. جرّب تاني.</string>
+</resources>

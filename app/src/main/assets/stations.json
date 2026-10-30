@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "stations": [
+    {
+      "id": "radio_masr",
+      "name": "راديو مصر",
+      "subtitle": "أخبار وبرامج · 88.7 FM",
+      "badge": "88.7",
+      "category": "news",
+      "urls": [
+        "http://live.radiomasr.net:8060/RADIOMASR",
+        "https://live.radiomasr.net/RadioMisr"
+      ]
+    },
+    {
+      "id": "nogoum_fm",
+      "name": "نجوم إف إم",
+      "subtitle": "أغاني وبرامج · 100.6 FM",
+      "badge": "100.6",
+      "category": "music",
+      "urls": [
+        "http://ice33.securenetsystems.net/NOGOUM",
+        "https://audio.nrpstream.com/listen/nogoum_fm/radio.mp3"
+      ]
+    },
+    {
+      "id": "nile_fm",
+      "name": "Nile FM",
+      "subtitle": "Hits · 104.2 FM",
+      "badge": "104.2",
+      "category": "music",
+      "urls": [
+        "http://ice31.securenetsystems.net/NILE",
+        "https://audio.nrpstream.com/listen/nile_fm/radio.mp3"
+      ]
+    },
+    {
+      "id": "mega_fm",
+      "name": "ميجا إف إم",
+      "subtitle": "أغاني عربي · 92.7 FM",
+      "badge": "92.7",
+      "category": "music",
+      "urls": [
+        "http://mgstrm9.twesto.com:7281/megafm214"
+      ]
+    },
+    {
+      "id": "radio_hits",
+      "name": "راديو هتس",
+      "subtitle": "أغاني للشباب · 88.2 FM",
+      "badge": "88.2",
+      "category": "music",
+      "urls": [
+        "http://audiostreaming.twesto.com/radiohits215"
+      ]
+    },
+    {
+      "id": "radio_9090",
+      "name": "راديو 9090",
+      "subtitle": "هواها مصري · 90.9 FM",
+      "badge": "90.9",
+      "category": "music",
+      "urls": [
+        "http://9090streaming.mobtada.com/9090FMEGYPT",
+        "http://9090streaming2.mobtada.com/9090FMEGYPT",
+        "http://9090video.mobtada.com:1935/live/9090ONLINE/playlist.m3u8"
+      ]
+    },
+    {
+      "id": "masr_gdida",
+      "name": "راديو مصر الجديدة",
+      "subtitle": "أغاني مصرية · أونلاين",
+      "badge": "",
+      "category": "music",
+      "urls": [
+        "http://streaming.radio.co/scc13a6b96/listen"
+      ]
+    },
+    {
+      "id": "mahatet_masr",
+      "name": "محطة مصر",
+      "subtitle": "أغاني مصرية · أونلاين",
+      "badge": "",
+      "category": "music",
+      "urls": [
+        "http://radio.mahatetmasr.com/mahatetmasr",
+        "http://radio.mahatetmasr.com/mahatetmasr?"
+      ]
+    },
+    {
+      "id": "quran_cairo",
+      "name": "إذاعة القرآن الكريم",
+      "subtitle": "من القاهرة · 98.2 FM",
+      "badge": "98.2",
+      "category": "quran",
+      "urls": [
+        "https://stream.radiojar.com/8s5u5tpdtwzuv"
+      ]
+    },
+    {
+      "id": "q_abdulbasit",
+      "name": "عبد الباسط عبد الصمد",
+      "subtitle": "تلاوات على مدار الساعة",
+      "badge": "قرآن",
+      "category": "quran",
+      "urls": [
+        "https://qurango.net/radio/abdulbasit_abdulsamad"
+      ]
+    },
+    {
+      "id": "q_husary",
+      "name": "محمود خليل الحصري",
+      "subtitle": "تلاوات على مدار الساعة",
+      "badge": "قرآن",
+      "category": "quran",
+      "urls": [
+        "https://qurango.net/radio/mahmoud_khalil_alhussary"
+      ]
+    },
+    {
+      "id": "q_minshawi",
+      "name": "محمد صديق المنشاوي",
+      "subtitle": "تلاوات على مدار الساعة",
+      "badge": "قرآن",
+      "category": "quran",
+      "urls": [
+        "https://qurango.net/radio/mohammed_siddiq_alminshawi"
+      ]
+    },
+    {
+      "id": "q_mustafa_ismail",
+      "name": "مصطفى إسماعيل",
+      "subtitle": "تلاوات على مدار الساعة",
+      "badge": "قرآن",
+      "category": "quran",
+      "urls": [
+        "https://qurango.net/radio/mustafa_ismail"
+      ]
+    },
+    {
+      "id": "q_banna",
+      "name": "محمود علي البنا",
+      "subtitle": "تلاوات على مدار الساعة",
+      "badge": "قرآن",
+      "category": "quran",
+      "urls": [
+        "https://qurango.net/radio/mahmoud_ali__albanna"
+      ]
+    }
+  ]
+}
